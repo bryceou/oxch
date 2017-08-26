@@ -11,6 +11,12 @@ using System.Xml.Linq;
 namespace ConTest
 {
 
+    public class Student
+    {
+        public string Field1 { get; set; }
+        public DateTime? Field2 { get; set; }
+
+    }
     class Program
     {
         static void Main(string[] args)
@@ -28,12 +34,5 @@ namespace ConTest
             Console.WriteLine("Complete");
             Console.Read();
         }
-    }
-
-    public class Student
-    {
-        public string Field1 { get; set; }
-        public DateTime? Field2 { get; set; }
-
     }
 }
