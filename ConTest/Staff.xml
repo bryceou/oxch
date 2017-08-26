@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Staffs>
+  <Company name="abc">
+    <Department name="IT">
+      <Staff>
+        <Name>lucy</Name>
+        <Age><![CDATA[20]]></Age>
+      </Staff>
+      <Staff>
+        <Name>jack</Name>
+        <Age><![CDATA[20]]></Age>
+      </Staff>
+    </Department>
+  </Company>
+  <Company name="eee">
+    <Department name="IT">
+      <Staff>
+        <Name>tom</Name>
+        <Age><![CDATA[21]]></Age>
+      </Staff>
+      <Staff>
+        <Name>ket</Name>
+        <Age><![CDATA[22]]></Age>
+      </Staff>
+    </Department>
+  </Company>
+</Staffs>
