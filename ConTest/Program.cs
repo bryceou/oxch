@@ -21,7 +21,7 @@ namespace ConTest
     {
         static void Main(string[] args)
         {
-            string filePath = AppDomain.CurrentDomain.BaseDirectory + "Staff.xml";
+            string filePath = AppDomain.CurrentDomain.BaseDirectory + "Staff.xml";//add comment
             XDocument doc = XDocument.Load(filePath);
             IEnumerable<XElement> staffs = doc.Descendants("Staff");
             foreach (XElement staff in staffs)
